@@ -17,6 +17,16 @@
     margin: 0 auto;
 }
 
+.primary_color{
+    color: #E95A08;
+}
+
+.secondary_color{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    line-height:normal;
+}
+
 /* Navbar Styles */
 nav{
     margin-top: 30px;
@@ -25,6 +35,23 @@ nav{
 nav ul li img{
     width:24px;
     height: 24px;
+}
+
+/* Banner Styles */
+header section{
+    margin-top: 226px;
+}
+
+header section h5{
+    line-height:normal;
+}
+
+header section div{
+    width: 570px;
+}
+
+header section img{
+    width: 570px;
 }
 
 /* Responsive Styles */
