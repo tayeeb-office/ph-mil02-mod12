@@ -11,3 +11,32 @@
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }
+
+/* Share Styles */
+.display_center{
+    margin: 0 auto;
+}
+
+/* Navbar Styles */
+nav{
+    margin-top: 30px;
+}
+
+nav ul li img{
+    width:24px;
+    height: 24px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width:767px) {
+    
+    nav{
+        max-width: 361px;
+        margin: 0 auto;
+        margin-top: 13px;
+    }
+
+    .visibility{
+        display: none;
+    }
+}
