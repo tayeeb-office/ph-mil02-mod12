@@ -23,7 +23,6 @@
 
 .secondary_color{
     color: rgba(0, 0, 0, 0.5);
-    font-size: 22px;
     line-height:normal;
 }
 
@@ -55,15 +54,42 @@ header section img{
 }
 
 /* Responsive Styles */
-@media screen and (max-width:767px) {
+@media screen and (max-width:576px) {
     
     nav{
-        max-width: 361px;
+        max-width: 22.5rem;
         margin: 0 auto;
         margin-top: 13px;
     }
 
     .visibility{
         display: none;
+    }
+
+    header section {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        gap: 28px;
+    }
+
+    header section div {
+        margin: 0 auto;
+    }
+
+    header section div {
+        width: 22.5rem;
+    }
+
+    header section h5{
+        font-size: 1.5rem;
+    }
+
+    header section p{
+        font-size: 0.8rem;
+    }
+
+    header section img{
+        width: 100%;
     }
 }
