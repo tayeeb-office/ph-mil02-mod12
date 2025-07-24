@@ -67,6 +67,17 @@ header section h5{
     background-color: #E95A08;
 }
 
+.footer_part{
+    margin: 50px 160px ;
+    display: grid;
+    grid-template-columns: 359px 85px 128px 216px;
+    gap: 110px;
+}
+
+.gap{
+    gap: 35px;
+}
+
 /* Responsive Styles */
 @media screen and (max-width:576px) {
     
@@ -109,4 +120,37 @@ header section h5{
     .news_bg{
         height: 276px;
     }
+
+    footer section h4{
+        font-size: 1.25rem;
+    }
+
+    .news_email{
+    width: 13.6rem;
+    }
+
+    .news_btn{
+    width: 6.4rem;
+    }
+
+    .footer_part{
+    width: 22.4rem;
+    margin: 3.1rem 0.8rem 3.1rem 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    }
+
+    .info{
+        font-size: 1rem;
+    }
+
+    .menu{
+        gap: 32px;
+    }
+
+    .icon{
+        
+    }
+
 }
