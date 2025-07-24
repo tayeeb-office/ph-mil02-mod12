@@ -26,7 +26,7 @@
     line-height:normal;
 }
 
-/* Navbar Styles */
+/* Header Styles */
 nav{
     margin-top: 30px;
 }
@@ -36,7 +36,6 @@ nav ul li img{
     height: 24px;
 }
 
-/* Banner Styles */
 header section{
     margin-top: 226px;
 }
@@ -45,21 +44,37 @@ header section h5{
     line-height:normal;
 }
 
-header section div{
-    width: 570px;
+/* Footer Styles */
+.news_bg{
+    background-image:url("assets/news-letter-bg.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 533px;
 }
 
-header section img{
-    width: 570px;
+.news_email{
+    width: 644px;
+    height: 50px;
+    background-color: white;
+    padding: auto 20px;
+}
+
+.news_btn{
+    width: 186px;
+    height: 50px;
+    color: white;
+    background-color: #E95A08;
 }
 
 /* Responsive Styles */
 @media screen and (max-width:576px) {
     
+    /* Header Styles */
     nav{
-        max-width: 22.5rem;
         margin: 0 auto;
         margin-top: 13px;
+        width: calc(100% - 32px);
     }
 
     .visibility{
@@ -69,16 +84,17 @@ header section img{
     header section {
         display: flex;
         flex-direction: column-reverse;
-        margin: 0 auto;
         gap: 28px;
+        margin: 0px;
     }
 
     header section div {
         margin: 0 auto;
+        width: calc(100% - 32px);
     }
 
-    header section div {
-        width: 22.5rem;
+    header section img{
+        width:100%;
     }
 
     header section h5{
@@ -89,7 +105,8 @@ header section img{
         font-size: 0.8rem;
     }
 
-    header section img{
-        width: 100%;
+    /* Footer Styles */
+    .news_bg{
+        height: 276px;
     }
 }
