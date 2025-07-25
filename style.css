@@ -94,7 +94,7 @@ header section h5{
 }
 
 .discount01{
-    background-image:url("assets/deal-bloom.png");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("assets/deal-bloom.png");
     width: 367px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,7 +103,7 @@ header section h5{
 }
 
 .discount02{
-    background-image:url("assets/deal-ana.png");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/deal-ana.png");
     width: 367px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ header section h5{
 }
 
 .discount03{
-    background-image:url("assets/deal-zabo.png");
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("assets/deal-zabo.png");
     width: 753px;
     background-size: cover;
     background-repeat: no-repeat;
