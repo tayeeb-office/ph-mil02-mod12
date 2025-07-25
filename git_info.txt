@@ -1,6 +1,6 @@
 Repository Link : https://github.com/tayeeb-office/ph-mil02-mod12.git
 
-Live link : 
+Live link : https://tayeeb-office.github.io/ph-mil02-mod12/
 
 Create a new repository on the command line : 
 echo "# ph-mil02-mod12" >> README.md
