@@ -71,9 +71,9 @@ header section h5{
 }
 
 .badge{
-    position:relative;
-    top:-750px;
-    right:-350px;
+    position:absolute;
+    top:2220px;
+    right:700px;
     width: 286px;
     height: 286px;
 }
@@ -81,6 +81,43 @@ header section h5{
 .list{
     margin-left: 1.5rem;
     padding-right: 1.5rem;
+}
+
+.discounts_section{
+   margin-top: 133px;
+   margin-bottom: 120px; 
+}
+
+.discounts_para{
+    margin: 16px auto 120px auto;
+    width: 888px;
+}
+
+.discount01{
+    background-image:url("assets/deal-bloom.png");
+    width: 367px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    height: 197px;
+}
+
+.discount02{
+    background-image:url("assets/deal-ana.png");
+    width: 367px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    height: 197px;
+}
+
+.discount03{
+    background-image:url("assets/deal-zabo.png");
+    width: 753px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+    height: 423px;
 }
 
 /* Footer Styles */
@@ -219,6 +256,29 @@ header section h5{
 
     .badge{
     display: none;
+    }
+
+    .discounts{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: calc(100% - 4rem); 
+    }
+
+    .discount01, .discount02, .discount03{
+    width: 22.5rem;
+    height: 177px;
+    }
+
+    .discount03 h4{
+        font-size: 1.25rem;
+    }
+
+    .discount03 h5{
+        font-size: 1rem;
+    }
+
+    .discounts{
+       
     }
 
     /* Footer Styles */
